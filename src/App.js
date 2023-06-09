@@ -6,6 +6,11 @@ import Home from './pages/Home';
 import Recepcao from './pages/Recepcao';
 import ListaEspera from './pages/ListaEspera';
 import Barbeiro from './pages/Barbeiro';
+import './pages/Barbeiro.css';
+import './pages/Home.css';
+import './pages/ListaEspera.css';
+import './pages/Recepcao.css';
+
 
 function App() {
   return (
