@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/barbearia/static/css/main.dde35ecc.css",
+    "main.js": "/barbearia/static/js/main.0172a6d5.js",
+    "index.html": "/barbearia/index.html",
+    "main.dde35ecc.css.map": "/barbearia/static/css/main.dde35ecc.css.map",
+    "main.0172a6d5.js.map": "/barbearia/static/js/main.0172a6d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dde35ecc.css",
+    "static/js/main.0172a6d5.js"
+  ]
+}
