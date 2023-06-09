@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Alterado: de min-height para height */
+    padding: 20px;
+    position: relative;
+    background-image: url("https://papers.co/wallpaper/papers.co-sh15-gray-dark-bw-black-gradation-blur-25-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .title {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  
+  .barbeiro-container {
+    margin-bottom: 32px;
+  }
+  
+  .barbeiro-name {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  
+  .comandas-list {
+    margin-bottom: 16px;
+  }
+  
+  .comanda-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #000000;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comanda-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .comanda-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comanda-cliente {
+    font-weight: bold;
+  }
+  
+  .comanda-valor {
+    color: #ffffff;
+  }
+  
+  .relatorio-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .relatorio-ganhos {
+    font-size: 16px;
+  }

@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Alterado: de min-height para height */
+    padding: 20px;
+    position: relative;
+    background-image: url("https://th.bing.com/th/id/OIP.JzAuPld8P2OtybVqA2Q6QwHaEK?pid=ImgDet&rs=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .list {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .list-item-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .delete-icon-button {
+    color: #ffffff;
+  }
+  
+  .delete-icon {
+    color: #ffffff;
+  }
+  
+  .white-input {
+    color: #FFFFFF; /* Cor das letras */
+    border-color: #FFFFFF; /* Cor da borda */
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 1rem;
+    }
+  }

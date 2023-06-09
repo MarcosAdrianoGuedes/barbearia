@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Container } from '@mui/material';
+import Home from './pages/Home';
+import Recepcao from './pages/Recepcao';
+import ListaEspera from './pages/ListaEspera';
+import Barbeiro from './pages/Barbeiro';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Container>
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/recepcao" element={<Recepcao />} />
+          <Route path="/lista-espera" element={<ListaEspera />} />
+          <Route path="/barbeiro" element={<Barbeiro />} />
+        </Routes>
+      </Container>
+    </Router>
   );
 }
 
