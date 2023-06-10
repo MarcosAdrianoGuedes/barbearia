@@ -17,7 +17,7 @@ function App() {
     <HashRouter basename='/barbearia'>
       <Container>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/barbearia" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/recepcao" element={<Recepcao />} />
           <Route path="/lista-espera" element={<ListaEspera />} />
