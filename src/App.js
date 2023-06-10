@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Container } from '@mui/material';
 import Home from './pages/Home';
 import Recepcao from './pages/Recepcao';
@@ -14,17 +14,17 @@ import './pages/Recepcao.css';
 
 function App() {
   return (
-    <HashRouter basename='/barbearia'>
+    <Router>
       <Container>
         <Routes>
-          <Route path="/barbearia" element={<Navigate to="/home" />} />
+          <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/recepcao" element={<Recepcao />} />
           <Route path="/lista-espera" element={<ListaEspera />} />
           <Route path="/barbeiro" element={<Barbeiro />} />
         </Routes>
       </Container>
-    </HashRouter>
+    </Router>
   );
 }
 
