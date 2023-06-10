@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Container } from '@mui/material';
 import Home from './pages/Home';
 import Recepcao from './pages/Recepcao';
@@ -14,7 +14,7 @@ import './pages/Recepcao.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/barbearia'>
       <Container>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/barbeiro" element={<Barbeiro />} />
         </Routes>
       </Container>
-    </Router>
+    </HashRouter>
   );
 }
 

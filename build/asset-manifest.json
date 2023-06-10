@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/barbearia/static/css/main.dde35ecc.css",
-    "main.js": "/barbearia/static/js/main.5e196393.js",
+    "main.js": "/barbearia/static/js/main.46d251ab.js",
     "index.html": "/barbearia/index.html",
     "main.dde35ecc.css.map": "/barbearia/static/css/main.dde35ecc.css.map",
-    "main.5e196393.js.map": "/barbearia/static/js/main.5e196393.js.map"
+    "main.46d251ab.js.map": "/barbearia/static/js/main.46d251ab.js.map"
   },
   "entrypoints": [
     "static/css/main.dde35ecc.css",
-    "static/js/main.5e196393.js"
+    "static/js/main.46d251ab.js"
   ]
 }
