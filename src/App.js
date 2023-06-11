@@ -11,9 +11,10 @@ import './pages/Home.css';
 import './pages/ListaEspera.css';
 import './pages/Recepcao.css';
 
+
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Container>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
