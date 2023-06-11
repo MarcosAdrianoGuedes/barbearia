@@ -14,7 +14,7 @@ import './pages/Recepcao.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/barbearia"> // Modificação aqui
       <Container>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
