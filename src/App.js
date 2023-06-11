@@ -11,10 +11,9 @@ import './pages/Home.css';
 import './pages/ListaEspera.css';
 import './pages/Recepcao.css';
 
-
 function App() {
   return (
-    <Router basename="/barbearia"> // Modificação aqui
+    <Router>
       <Container>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
