@@ -7,7 +7,7 @@ function Barbeiro() {
   const [comandas, setComandas] = useState([]);
   const [barbeiros] = useState([
     { nome: 'Rodrigo', comissao: 50 },
-    { nome: 'Geovane', comissao: 50 },
+    { nome: 'Wallace', comissao: 50 },
     { nome: 'Cardoso', comissao: 70 },
   ]);
   const [produtos] = useState([

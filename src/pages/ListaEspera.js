@@ -21,7 +21,7 @@ function ListaEspera() {
   const handleFinalizarComanda = (index) => {
     const comandaExcluida = comandas[index];
     // Verificar a senha
-    if (senha === 'CARDOSODZ6') {
+    if (senha === 'BARBEARIADZ6') {
       deletarComanda(comandaExcluida);
       setComandas((prevComandas) => prevComandas.filter((_, i) => i !== index));
       setSenhaIncorreta(false);

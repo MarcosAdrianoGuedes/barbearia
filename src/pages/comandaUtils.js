@@ -44,7 +44,7 @@ export function deletarComanda(comanda) {
 
 export const barbeiros = [
   { nome: 'Rodrigo', comissao: 50 },
-  { nome: 'Geovane', comissao: 50 },
+  { nome: 'Wallace', comissao: 50 },
   { nome: 'Cardoso', comissao: 70 },
   { nome: 'Disponível', comissao: 0 },
 ];
