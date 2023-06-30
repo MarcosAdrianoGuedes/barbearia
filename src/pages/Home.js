@@ -23,7 +23,7 @@ function Home() {
   const handleEnter = () => {
     if (password === correctPassword) {
       // Redirecionar para a página do barbeiro se a senha estiver correta
-      window.location.href = '/barbearia/barbeiro';
+      window.location.href = '/barbeiro';
     } else {
       // Exibir mensagem de senha incorreta
       alert('Senha incorreta');
@@ -42,7 +42,7 @@ function Home() {
         <Link to="/lista-espera" className="button waiting-list-button">
           Lista de Espera
         </Link>
-        <Button className="button barbeiro" onClick={handleOpen}>
+        <Button to="/barbeiro" className="button barbeiro" onClick={handleOpen}>
           Barbeiro
         </Button>
       </Container>
