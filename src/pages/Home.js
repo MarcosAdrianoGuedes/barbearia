@@ -23,7 +23,7 @@ function Home() {
   const handleEnter = () => {
     if (password === correctPassword) {
       // Redirecionar para a página do barbeiro se a senha estiver correta
-      window.location.href = '/barbeiro';
+      window.location.href = '/barbearia/barbeiro';
     } else {
       // Exibir mensagem de senha incorreta
       alert('Senha incorreta');
